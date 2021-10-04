@@ -20,3 +20,19 @@ pygame.display.set_mode((window_x, window_y))
 
 fps = pygame.time.Clock()
 
+snake_position = [100,50]
+
+snake_body = [
+  [100,50],[90,50],[80,50],[70,50]
+]
+
+fruit_position = [
+  random.range(1,(window_x//10)) * 10, 
+  random.range(1,(window_y//10)) * 10
+]
+
+fruit_spawn = True
+
+direction = 'RIGHT'
+change_to = direction
+
