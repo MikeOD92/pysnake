@@ -27,8 +27,8 @@ snake_body = [
 ]
 
 fruit_position = [
-  random.range(1,(window_x//10)) * 10, 
-  random.range(1,(window_y//10)) * 10
+  random.randrange(1,(window_x//10)) * 10, 
+  random.randrange(1,(window_y//10)) * 10
 ]
 
 fruit_spawn = True
